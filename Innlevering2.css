@@ -2,8 +2,13 @@
 /* CSS Document */
 
 body{
-	background-color: purple;
+	background-image: url("git images/purple-back.jfif");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
+
+
 .container{
 	padding: 30px;
 	background-color: blue;
