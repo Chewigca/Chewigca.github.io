@@ -1,29 +1,15 @@
 // JavaScript Document
 
+var header = document.getElementById("overskrift1")
 
-var a = 15;
+var date = new Date();
 
-var b = 10;
+var hours= date.getHours();
 
-		console.log(a+b)
-		console.log(b-a)
-		console.log(b/a)
-		console.log(a*b)
-		console.log(b%2)
 
-if(a==b){
-	console.log("tala er like")
-	}
-else if(a<b){
-	console.log("talet er mindre")
+if(hours >= 5 && hours<12){
+	header.innerText = "God Morgen";
 }
-else if(a>b){
-	console.log("talet er større")
-}
-
-
-var i = 0;
-while(i < 21) {
-    console.log(i);
-    i++;
+if(hours >= 12 &&  hours < 17){
+	header.innerText = "God Dag"
 }
