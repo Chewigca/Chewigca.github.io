@@ -1,24 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+
+
 body{
 	background-image: url("git images/Titanfall2.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-}
-
-.Attack-on-Titan{
-	padding: 20px;
-	background-color: darkgray;
-	box-shadow: 20px 20px 10px purple;
-	
-}
-.image{
-	
-	height: 100px;
-	
-	
 }
 
 .Mor-di{
@@ -145,4 +135,78 @@ footer {
 		margin: 20px 50px;
 		padding:10px;
 		float: left;
+}
+
+#image1{
+	height: 300px;
+	border: 5px;
+	border-style: solid;
+	border-color: #B508D3;
+	float: left;
+	background-color: darkgray;
+	box-shadow: 20px 20px 10px purple;
+	margin: 40px
+}
+
+#image2{
+	height: 300px;
+	border: 5px;
+	border-style: solid;
+	border-color: #B508D3;
+	float: right;
+	background-color: darkgray;
+	box-shadow: 20px 20px 10px purple;
+	margin: 40px
+}
+
+#image3{
+	height: 300px;
+	border: 5px;
+	border-style: solid;
+	border-color: #B508D3;
+	float: left;
+	background-color: darkgray;
+	box-shadow: 20px 20px 10px purple;
+	margin: 40px
+}
+
+#image4{
+	height: 300px;
+	border: 5px;
+	border-style: solid;
+	border-color: #B508D3;
+	float: right;
+	background-color: darkgray;
+	box-shadow: 20px 20px 10px purple;
+	margin: 40px
+}
+
+#image5{
+	height: 300px;
+	border: 5px;
+	border-style: solid;
+	border-color: #B508D3;
+	float: left;
+	background-color: darkgray;
+	box-shadow: 20px 20px 10px purple;
+	margin: 40px
+}
+
+#image6{
+	height: 300px;
+	border: 5px;
+	border-style: solid;
+	border-color: #B508D3;
+	float: right;
+	background-color: darkgray;
+	box-shadow: 20px 20px 10px purple;
+	margin: 40px
+}
+
+@media screen and(max-width: 600px){
+	kol14{
+		grid-column: span 12;
+	}
+	.box {
+		background-color: blue !important;}
 }
