@@ -13,6 +13,17 @@ body{
 
 .Mor-di{
 	width: 500px;
+	border-collapse: collapse;
+	
+	color: white;
+	background-color: darkgray;
+	padding: 20px right;
+	
+}
+
+tr, th, td{
+	border: solid white;
+	padding: 8px;
 }
 
 
@@ -202,6 +213,7 @@ footer {
 	box-shadow: 20px 20px 10px purple;
 	margin: 40px
 }
+
 
 @media screen and(max-width: 600px){
 	kol14{
