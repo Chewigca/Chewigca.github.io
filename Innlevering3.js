@@ -13,3 +13,10 @@ if(hours >= 5 && hours<12){
 if(hours >= 12 &&  hours < 17){
 	header.innerText = "God Dag"
 }
+
+
+function changeColor() {
+	var body = document.getElementByTagName("body")[0];
+	var colorSelect = document.getElementById("fcolor");
+	body.style.color = colorSelect.options[colorSelect.selectedIndex].value;
+}
