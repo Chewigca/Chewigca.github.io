@@ -11,14 +11,14 @@ body{
 	background-size: cover;
 }
 
+
+/* Index.html */
 .Mor-di{
 	width: 500px;
 	border-collapse: collapse;
 	
 	color: white;
 	background-color: darkgray;
-	padding: 20px right;
-	
 }
 
 tr, th, td{
@@ -26,29 +26,96 @@ tr, th, td{
 	padding: 8px;
 }
 
-
-.EinTabbel{
+#overskrift2{
+	align-self: center;
+}
+.EinTabbel {
 	color: black;
 	background-color: darkgray ;
-	margin: 20px 50px ;
+	text-align: center;
 	float: right;
 	display: grid;
 	padding: 50px;
-	grid-template-columns: 200px 100px;
-	border:20px 20px 20px #84097B;
 	grid-template-columns: auto auto auto;
 	border: 5px;
 	border-style:solid;
 	border-color: #B508D3;
 }
 
-.container{
-	padding: 30px;
-	background-color: blue;
-	margin-right: 650px;
-	border: 5px outset black;
+
+
+
+/* dropdown menu */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #84097B;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #84097B;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* dropdown menu */
+
+
+
+
+/* menu */
 a:hover{
 	background-color: purple;
 }
@@ -65,7 +132,7 @@ a{
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
+
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -74,25 +141,19 @@ a{
   text-decoration: none;
   font-size: 17px;
 }
-
+/* menu */
 
 #overskrift1{
 	color: black ;
 	background-color: darkgray ;
 }
 
-.information, .contact{
-	color: black;
-	background-color: darkgray ;
-	margin: 20px 50px ;
-	padding: 10px;
-	float: right;
-	}
+
 
 #Ignacio{
 	border-top-style: hidden;
 	float: left;
-	height: 600px;
+	height: 500px;
 	border: thick;
 	padding: 10px;
 	background-color: darkgray;
@@ -113,6 +174,20 @@ footer {
 }
 
 
+
+
+/* Kompetansemål i forskjellige fag og kontakter*/
+
+
+.information, .contact{
+	color: black;
+	background-color: darkgray ;
+	margin: 20px 50px ;
+	padding: 10px;
+	float: right;
+	}
+
+
 .produksjon{
 	background-color: darkgray;
 	color: black;
@@ -121,7 +196,7 @@ footer {
 	float:  left;
 	}
 	
-	.historiefortelling{
+.historiefortelling{
 	background-color: darkgray;
 	color: black;
 	margin: 20px 50px;
@@ -147,7 +222,15 @@ footer {
 		padding:10px;
 		float: left;
 }
+/* Kompetansemål i forskjellige fag */
 
+
+
+
+
+
+
+/* Attack on Titan */
 #image1{
 	height: 300px;
 	border: 5px;
@@ -163,10 +246,10 @@ footer {
 	height: 300px;
 	border: 5px;
 	border-style: solid;
-	border-color: #B508D3;
+	border-color: cyan;
 	float: right;
 	background-color: darkgray;
-	box-shadow: 20px 20px 10px purple;
+	box-shadow: 20px 20px 10px cyan;
 	margin: 40px
 }
 
@@ -174,10 +257,10 @@ footer {
 	height: 300px;
 	border: 5px;
 	border-style: solid;
-	border-color: #B508D3;
+	border-color: blue;
 	float: left;
 	background-color: darkgray;
-	box-shadow: 20px 20px 10px purple;
+	box-shadow: 20px 20px 10px blue;
 	margin: 40px
 }
 
@@ -185,10 +268,10 @@ footer {
 	height: 300px;
 	border: 5px;
 	border-style: solid;
-	border-color: #B508D3;
+	border-color: yellow;
 	float: right;
 	background-color: darkgray;
-	box-shadow: 20px 20px 10px purple;
+	box-shadow: 20px 20px 10px yellow;
 	margin: 40px
 }
 
@@ -196,10 +279,10 @@ footer {
 	height: 300px;
 	border: 5px;
 	border-style: solid;
-	border-color: #B508D3;
+	border-color: red;
 	float: left;
 	background-color: darkgray;
-	box-shadow: 20px 20px 10px purple;
+	box-shadow: 20px 20px 10px red;
 	margin: 40px
 }
 
@@ -207,12 +290,38 @@ footer {
 	height: 300px;
 	border: 5px;
 	border-style: solid;
-	border-color: #B508D3;
+	border-color: green;
 	float: right;
 	background-color: darkgray;
-	box-shadow: 20px 20px 10px purple;
+	box-shadow: 20px 20px 10px green;
 	margin: 40px
 }
+
+/* Attack on Titan */
+
+
+/* fagdag oppgaver */
+
+.fagdag{
+	background-color: darkgray;
+	margin: 20px 50px;
+	padding-right: 170px;
+	padding-left: 20px;
+	float: left;
+}
+
+.kontaktskjema1{
+	with: 40%;
+}
+
+.kontaktskjema2{
+	with: 40%;
+}
+
+
+/* fagdag oppgaver */
+
+
 
 
 @media screen and(max-width: 600px){
@@ -221,4 +330,4 @@ footer {
 	}
 	.box {
 		background-color: blue !important;}
-}
+
