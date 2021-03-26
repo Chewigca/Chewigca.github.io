@@ -16,7 +16,6 @@ body{
 .Mor-di{
 	width: 500px;
 	border-collapse: collapse;
-	
 	color: white;
 	background-color: darkgray;
 }
@@ -110,6 +109,7 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 /* dropdown menu */
 
 
